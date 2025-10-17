@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.5.0.schema.json
+
+PackageIdentifier: Brows.App
+PackageVersion: 0.58.0.57
+InstallerLocale: en-US
+InstallerType: wix
+ProductCode: '{37CF9FED-7123-45B0-86B3-00C900DAD078}'
+Installers:
+- InstallerUrl: https://brows-api.azurewebsites.net/api/file/app/brows/x64/0/brows-x64-0.58.0.57.msi
+  Architecture: x64
+  InstallerSha256: 3de16a78a25bbf8596213b39f4dda2a9376a4e88a8e2a53b697bb59c928c8583
+ManifestType: installer
+ManifestVersion: 1.5.0
